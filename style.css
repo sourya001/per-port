@@ -24,8 +24,7 @@ body {
   font-weight: 500;
   font-style: normal;
 }
-.rightSection {
-}
+
 .rightSection img {
   width: 70%;
 }
@@ -105,9 +104,7 @@ main hr {
     display: flex;
 }
 @media screen and (max-width: 960px) {
-    .rightSection{
-      
-    }
+  
    .firstSection{
 flex-direction: column-reverse;
 
