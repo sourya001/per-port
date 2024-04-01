@@ -159,4 +159,7 @@ flex-direction: column-reverse;
   .fifthSection,.secondSection,.thirdSection,.fourthSection{
     max-width: 90vw;
   }
+  main hr{
+    margin: 40px 20px;
+  }
 }
