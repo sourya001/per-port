@@ -126,6 +126,7 @@ flex-direction: column-reverse;
   }
   .vertical-text{
     left : 30px;
+    top: 30px;
   }
   .leftSection{
     width: 100%;
