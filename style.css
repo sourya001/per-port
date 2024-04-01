@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: white;
+}
+.navbar-brand {
+  font-size: 1.3rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0px;
+}
+.firstSection > div {
+  width: 42%;
+}
+.leftSection {
+  font-size: 2.2rem;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.rightSection {
+}
+.rightSection img {
+  width: 70%;
+}
+.red,
+#element {
+  color: rgb(165, 0, 0);
+  font-style: italic;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 100vh;
+}
+.thirdSection{
+    max-width: 80vw;
+  margin: auto;
+}
+.fourthSection,.fifthSection{
+    max-width: 80vw;
+  margin: auto;
+}
+main hr {
+  border: 0px;
+  background: black;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.secondSection .text-red,.thirdSection .text-red,.fourthSection .text-red,.fifthSection .text-red {
+  font-size: 0.5rem;
+  color: rgb(165, 0, 0);
+}
+.secondSection .box {
+  background: black;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0px;
+  display: flex;
+}
+.secondSection .vertical {
+  height: 85px;
+  width: 1px;
+  background-color: black;
+  margin: 0px 100px;
+}
+.box .vertical {
+  font-weight: 500;
+}
+.vertical-text {
+  position: relative;
+  top: 86px;
+  width: 150px;
+}
+.vertical-text ul{
+    color:rgb(165, 0, 0) ;
+    list-style-type:disc ;
+    font-size:14px ;
+}
+.footer{
+    display: flex;
+    background-color:#a7a7a7;
+   
+    padding: 15px 30px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer> div{
+    width: 150px;
+}
+.footer-rights{
+    color:rgb(165, 0, 0) ;
+    background-color:#a7a7a7;
+    text-align: center;
+}
+.thirdSection .box , .fourthSection .box{
+    display: flex;
+}
+@media screen and (max-width: 960px) {
+    .rightSection{
+      
+    }
+   .firstSection{
+flex-direction: column-reverse;
+
+    }
+    .firstSection>div
+
+{
+    width: 80% !important;
+    
+}    .secondSection .box{
+    flex-direction: column;
+   width: 50vw;
+  }
+  .secondSection .vertical{
+    height: unset;
+  }
+  .footer{
+    display: none;
+  }
+  .vertical-text{
+    left : 30px;
+  }
+  .leftSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  .secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .thirdSection .box{
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+  }
+  .fourthSection .box{
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+  }
+}
