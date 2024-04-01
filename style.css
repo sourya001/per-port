@@ -156,4 +156,7 @@ flex-direction: column-reverse;
     flex-direction: row;
   
   }
+  .fifthSection,.secondSection,.thirdSection,.fourthSection{
+    max-width: 90vw;
+  }
 }
